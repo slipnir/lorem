@@ -1,0 +1,259 @@
+<html>
+<head>
+    <meta lang="ru">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header__wrapper">
+            <div class="header__logo">
+                <p>LoremIpsum.<span>Net</span></p>
+            </div>
+            <nav class="header__nav js_nav">
+                <a href="" class="header__link active">Бизнес</a>
+                <a href="" class="header__link">О нас</a>
+                <a href="" class="header__link">Цены</a>
+                <a href="" class="header__link">Оформить заказ</a>
+            </nav>
+            <div class="burger-menu js_menu">
+                <div class="burger-menu__icon"></div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="banner">
+    <div class="container">
+        <div class="banner__info">
+            <h1 class="banner__title"><span>Lorem ipsum</span> dolor sit <br> amet
+                consectetur <span>adipiscing</span></h1>
+            <p class="banner__text">At vero eos et accusamus et iusto odio dignissimos ducimus!</p>
+            <ul class="banner__list">
+                <li>Totam rem aperiam eaque ipsa</li>
+                <li>Sit voluptatem accusantium doloremque laudantium</li>
+                <li>Sed ut perspiciatis, unde omnis iste natus error</li>
+            </ul>
+            <div class="banner__buttons">
+                <a href="" class="banner__button">заказать</a>
+                <a href="" class="banner__button banner__button--light">подробнее</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="order">
+    <div class="container">
+        <div class="order__wrapper">
+            <h2 class="order__title">Оформление <span>Заказа</span></h2>
+            <p class="order__subtitle">Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+            <div class="order__list list">
+                <div class="list__item">
+                    <div class="list__circle list__circle--search"></div>
+                    <p class="list__text">Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="list__item">
+                    <div class="list__circle list__circle--percent"></div>
+                    <p class="list__text">Сonsecteturadipiscing elit</p>
+                </div>
+                <div class="list__item">
+                    <div class="list__circle list__circle--file"></div>
+                    <p class="list__text">Sed do eiusmod tempor</p>
+                </div>
+                <div class="list__item">
+                    <div class="list__circle list__circle--mail"></div>
+                    <p class="list__text">Esse cillum dolore eu fugiat</p>
+                </div>
+                <div class="list__item">
+                    <div class="list__circle list__circle--money"></div>
+                    <p class="list__text">Excepteur sint occaecat cupidatat non proident</p>
+                </div>
+            </div>
+            <form class="order__form form" action="" method="POST">
+                <div class="form__box">
+                    <div class="form__field">
+                        <label for="type" hidden>Выберите тип системы</label>
+                        <select class="form__select" name="type" id="type" aria-label="type">
+                            <option value="1" aria-label="type 1">Выберите тип системы</option>
+                            <option value="2" aria-label="type 2">Выберите тип системы 2</option>
+                            <option value="3" aria-label="type 3">Выберите тип системы 3</option>
+                        </select>
+                    </div>
+                    <div class="form__field">
+                        <label for="email" hidden>Ваш e-mail</label>
+                        <input required class="form__input" type="text" id="email" name="email" aria-label="email" placeholder="Ваш e-mail">
+                    </div>
+                    <div class="form__field">
+                        <label for="name" hidden>Ваше имя</label>
+                        <input required class="form__input" type="text" id="name" name="name" aria-label="name" placeholder="Ваше имя">
+                    </div>
+                    <div class="form__field form__range">
+                        <div class="form__range-block">
+                            <p>Sed ut perspiciatis, unde omnis iste natus</p>
+                            <span id="range-value">75%</span>
+                        </div>
+                        <label for="range" hidden></label>
+                        <input type="range" id="range" min="0" max="100" value="75" name="range" aria-label="range">
+                    </div>
+                    <div class="form__field">
+                        <label for="file" class="form__file-label">
+                            <span>Прикрепить файл</span>
+                        </label>
+                        <input class="form__file-input" type="file" id="file" name="file" aria-label="file">
+                    </div>
+                </div>
+                <div class="form__bottom">
+                    <button class="form__button" type="submit" aria-label="submit">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="reviews">
+    <div class="container">
+        <div class="reviews__wrapper">
+            <h2 class="reviews__title"><span>Отзывы</span> клиентов</h2>
+            <div class="slider">
+                <div class="slider__wrapper js_slider">
+                    <div class="slider__item item js_slider_item">
+                        <div class="item__container">
+                            <div class="item__info">
+                                <img class="item__img" src="/assets/img/avatar.png" alt="Avatar">
+                                <p class="item__name">John Doe</p>
+                                <p class="item__date">01/01/2024</p>
+                            </div>
+                            <div class="item__review">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at autem,
+                                    consequatur cum
+                                    cupiditate doloremque doloribus eaque, optio pariatur perferendis quam qui quo
+                                    recusandae
+                                    sed sequi sunt ullam velit voluptate.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item item js_slider_item">
+                        <div class="item__container">
+                            <div class="item__info">
+                                <img class="item__img" src="/assets/img/avatar.png" alt="Avatar">
+                                <p class="item__name">John Doe</p>
+                                <p class="item__date">01/01/2024</p>
+                            </div>
+                            <div class="item__review">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at autem,
+                                    consequatur cum
+                                    cupiditate doloremque doloribus eaque, optio pariatur perferendis quam qui quo
+                                    recusandae
+                                    sed sequi sunt ullam velit voluptate.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item item js_slider_item">
+                        <div class="item__container">
+                            <div class="item__info">
+                                <img class="item__img" src="/assets/img/avatar.png" alt="Avatar">
+                                <p class="item__name">John Doe</p>
+                                <p class="item__date">01/01/2024</p>
+                            </div>
+                            <div class="item__review">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at autem,
+                                    consequatur cum
+                                    cupiditate doloremque doloribus eaque, optio pariatur perferendis quam qui quo
+                                    recusandae
+                                    sed sequi sunt ullam velit voluptate. Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Amet beatae consectetur, delectus, error expedita fugiat hic iste
+                                    nemo, non perferendis placeat quia quod repellendus sed vel vitae voluptas
+                                    voluptatem voluptatum?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item item js_slider_item">
+                        <div class="item__container">
+                            <div class="item__info">
+                                <img class="item__img" src="/assets/img/avatar.png" alt="Avatar">
+                                <p class="item__name">John Doe</p>
+                                <p class="item__date">01/01/2024</p>
+                            </div>
+                            <div class="item__review">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at autem,
+                                    consequatur cum
+                                    cupiditate doloremque doloribus eaque, optio pariatur perferendis quam qui quo
+                                    recusandae
+                                    sed sequi sunt ullam velit voluptate.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item item js_slider_item">
+                        <div class="item__container">
+                            <div class="item__info">
+                                <img class="item__img" src="/assets/img/avatar.png" alt="Avatar">
+                                <p class="item__name">John Doe</p>
+                                <p class="item__date">01/01/2024</p>
+                            </div>
+                            <div class="item__review">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at autem,
+                                    consequatur cum
+                                    cupiditate doloremque doloribus eaque, optio pariatur perferendis quam qui quo
+                                    recusandae
+                                    sed sequi sunt ullam velit voluptate. Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Aut consequuntur cupiditate dolores et facilis harum hic illo
+                                    illum incidunt pariatur placeat quaerat quam quas quasi quia, quidem repellat,
+                                    repudiandae sapiente.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__item item js_slider_item">
+                        <div class="item__container">
+                            <div class="item__info">
+                                <img class="item__img" src="/assets/img/avatar.png" alt="Avatar">
+                                <p class="item__name">John Doe</p>
+                                <p class="item__date">01/01/2024</p>
+                            </div>
+                            <div class="item__review">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at autem,
+                                    consequatur cum
+                                    cupiditate doloremque doloribus eaque, optio pariatur perferendis quam qui quo
+                                    recusandae
+                                    sed sequi sunt ullam velit voluptate.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__nav">
+                <span class="slider__prev js_prev">&#10094;</span>
+                <span class="slider__next js_next">&#10095;</span>
+            </div>
+            <div class="slider__dots js_dots"></div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <div class="footer__copyright">
+                <p>© 2018 «LoremIpsum.net» Все права защищены.</p>
+            </div>
+            <div class="footer__pay">
+                <span class="footer__text footer__text--qiwi">Qiwi wallet</span>
+                <span class="footer__text footer__text--yandex">Yandex Money</span>
+                <span class="footer__text footer__text--web">Web Money</span>
+            </div>
+            <div class="footer__contacts">
+                <a href="mailto:info@ipsum228.com" class="footer__link footer__link--email">info@ipsum228.com</a>
+                <a href="https://vk.ru" class="footer__link footer__link--social" target="_blank">Мы вконтакте</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
